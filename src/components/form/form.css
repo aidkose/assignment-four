@@ -1,0 +1,28 @@
+input {
+  padding: 10px 10px 10px 5px;
+  border: none;
+  outline: none;
+  background-color: rgb(237, 237, 237);
+  margin-right: -10px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(214, 214, 214);
+}
+
+button:hover {
+  background-color: rgb(201, 201, 201);
+}
+
+button:active {
+  background-color: rgb(185, 185, 185);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

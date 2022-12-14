@@ -1,0 +1,40 @@
+.del {
+  background-color: rgb(214, 26, 26);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  margin-right: 16px;
+}
+
+.del:hover {
+  background-color: rgb(190, 20, 20);
+}
+.del:active {
+  background-color: rgb(169, 19, 19);
+}
+
+#complete-btn {
+  background-color: rgb(62, 180, 62);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+#complete-btn:hover {
+  background-color: rgb(55, 168, 55);
+}
+#complete-btn:active {
+  background-color: rgb(43, 150, 43);
+}
+#incomplete-btn {
+  padding: 10px 20px;
+}
+.complete {
+  color: rgb(214, 214, 214);
+  text-decoration: line-through;
+}
+
+.hide-button {
+  display: none;
+}
